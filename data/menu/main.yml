@@ -1,0 +1,41 @@
+---
+main:
+  - name: Introduction
+    ref: "/"
+  - name: 1.Overview
+    ref: "/1-Overview/"
+    icon: ""
+    sub:
+      - name: 1.1.Prerequisites
+        ref: "/1-Overview/1-1Prerequisites.md"
+      - name: 1.2.References
+        ref: "/1-Overview/1-2References.md"
+      - name: 1.3.Setup
+        ref: "/1-Overview/1-3Setup.md"
+      - name: 1.4.Data
+        ref: "/1-Overview/1-4Data.md"
+  - name: 2.GeoServer
+    ref: "/2-GeoServer/"
+    icon: ""
+    sub:
+      - name: 2.1.Basics
+        ref: "/2-GeoServer/2-1Basics/"
+        sub:
+          - name: 2.1.1.Administation
+            ref: "/2-GeoServer/2-1Basics/2-1-1Administration/"
+            sub:
+              - name: 2.1.1.1.Login and Frontend Overview
+                ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-1LoginAndFrontendOverview.md"
+              - name: 2.1.1.2.About and Status
+                ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-2AboutAndStatus/"
+              - name: 2.1.1.1.Services
+                ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-3Services.md"
+              - name: 2.1.1.1.Settings
+                ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-4Settings.md"
+              - name: 2.1.1.1.Security
+                ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-5Security.md"
+          - name: 2.1.2.Publishing
+            ref: "/2-GeoServer/2-1Basics/2-1-2Publishing"
+      - name: 2.2.Advanced
+        ref: "/2-GeoServer/2-2Advanced/"
+      
