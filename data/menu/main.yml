@@ -28,6 +28,15 @@ main:
                 ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-1LoginAndFrontendOverview.md"
               - name: 2.1.1.2.About and Status
                 ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-2AboutAndStatus/"
+                sub:
+                  - name: 2.1.1.2.1.Server Status
+                    ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-2AboutAndStatus/2-1-1-2-1ServerStatus.md"
+                  - name: 2.1.1.2.2.GeoServer Logs
+                    ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-2AboutAndStatus/2-1-1-2-2GeoServerLogs.md"
+                  - name: 2.1.1.2.1.Contact Information
+                    ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-2AboutAndStatus/2-1-1-2-3ContactInformation.md"
+                  - name: 2.1.1.2.1.About GeoServer
+                    ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-2AboutAndStatus/2-1-1-2-4AboutGeoServer.md"
               - name: 2.1.1.1.Services
                 ref: "/2-GeoServer/2-1Basics/2-1-1Administration/2-1-1-3Services.md"
               - name: 2.1.1.1.Settings
@@ -38,4 +47,115 @@ main:
             ref: "/2-GeoServer/2-1Basics/2-1-2Publishing"
       - name: 2.2.Advanced
         ref: "/2-GeoServer/2-2Advanced/"
-      
+        sub: 
+          - name: 2.2.1.Rest
+            ref: "/2-GeoServer/2-2Advanced/2-2-1Rest/"
+            sub: 
+              - name: 2.2.1.1.Read
+                ref: "/2-GeoServer/2-2Advanced/2-2-1Rest/2-2-1-1Read.md"
+              - name: 2.2.1.2.Create
+                ref: "/2-GeoServer/2-2Advanced/2-2-1Rest/2-2-1-2Create.md"
+              - name: 2.2.1.3.Update
+                ref: "/2-GeoServer/2-2Advanced/2-2-1Rest/2-2-1-3Update.md"
+              - name: 2.2.1.4.Delete
+                ref: "/2-GeoServer/2-2Advanced/2-2-1Rest/2-2-1-4Delete.md"
+          - name: 2.2.2.GeoWebCache
+            ref: "/2-GeoServer/2-2Advanced/2-2-2GeoWebCache/"
+            sub: 
+              - name: 2.2.2.1.Prerequisites
+                ref: "/2-GeoServer/2-2Advanced/2-2-2GeoWebCache/2-2-2-1Prerequisites.md"
+              - name: 2.2.2.2.Tiles and gridsets
+                ref: "/2-GeoServer/2-2Advanced/2-2-2GeoWebCache/2-2-2-2Gridset.md"
+              - name: 2.2.2.3.Cached layer
+                ref: "/2-GeoServer/2-2Advanced/2-2-2GeoWebCache/2-2-2-3Cachelayer.md"
+              - name: 2.2.2.4.Generate map tiles
+                ref: "/2-GeoServer/2-2Advanced/2-2-2GeoWebCache/2-2-2-4Seedtask.md"
+              - name: 2.2.2.5.Checking the cache directory
+                ref: "/2-GeoServer/2-2Advanced/2-2-2GeoWebCache/2-2-2-5Checkcachedir.md"
+              - name: 2.2.2.6.Checking the cache-headers
+                ref: "/2-GeoServer/2-2Advanced/2-2-2GeoWebCache/2-2-2-6Checkcacheheaders.md"
+  - name: 3.JavaScript
+    ref: "/3-JavaScript/"
+    sub:
+      - name: 3.1.Basics
+        ref: "/3-JavaScript/3-1Basics/"
+        sub:
+          - name: 3.1.1.Comments
+            ref: "/3-JavaScript/3-1Basics/3-1-1Comments.md"
+          - name: 3.1.2.Variables
+            ref: "/3-JavaScript/3-1Basics/3-1-2Variables.md"
+          - name: 3.1.3.Types
+            ref: "/3-JavaScript/3-1Basics/3-1-3Types.md"
+          - name: 3.1.4.Equality
+            ref: "/3-JavaScript/3-1Basics/3-1-4Equality.md"
+      - name: 3.2.Numbers
+        ref: "/3-JavaScript/3-2Numbers/"
+        sub: 
+          - name: 3.2.1.Creation
+            ref: "/3-JavaScript/3-2Numbers/3-2-1Creation.md"
+          - name: 3.2.2.Operators
+            ref: "/3-JavaScript/3-2Numbers/3-2-2Operators.md"
+          - name: 3.2.3.Advanced Operators
+            ref: "/3-JavaScript/3-2Numbers/3-2-3Advanced.md"
+      - name: 3.3.Strings
+        ref: "/3-JavaScript/3-3Strings/"
+        sub:
+          - name: 3.3.1.Creation
+            ref: "/3-JavaScript/3-3Strings/3-3-1Create.md"
+          - name: 3.3.2.Concatenation
+            ref: "/3-JavaScript/3-3Strings/3-3-2Concat.md"
+          - name: 3.3.3.Length
+            ref: "/3-JavaScript/3-3Strings/3-3-3Length.md"
+      - name: 3.4.Conditional Logic
+        ref: "/3-JavaScript/3-4Conditional/"
+        sub:
+          - name: 3.4.1.If
+            ref: "/3-JavaScript/3-4Conditional/3-4-1If.md"
+          - name: 3.4.2.Else
+            ref: "/3-JavaScript/3-4Conditional/3-4-2Else.md"
+          - name: 3.4.3.Conparators
+            ref: "/3-JavaScript/3-4Conditional/3-4-3Comparators.md"
+          - name: 3.4.4.Concatenate
+            ref: "/3-JavaScript/3-4Conditional/3-4-4Concatenate.md"
+      - name: 3.5.Arrays
+        ref: "/3-JavaScript/3-5Arrays/"
+        sub:
+          - name: 3.5.1.Indices
+            ref: "/3-JavaScript/3-5Arrays/3-5-1Indices.md"
+          - name: 3.5.2.Length
+            ref: "/3-JavaScript/3-5Arrays/3-5-2Length.md"
+      - name: 3.6.Loops
+        ref: "/3-JavaScript/3-6Loops/"
+        sub:
+          - name: 3.6.1.For
+            ref: "/3-JavaScript/3-6Loops/3-6-1For.md"
+          - name: 3.6.2.While
+            ref: "/3-JavaScript/3-6Loops/3-6-2While.md"
+          - name: 3.6.3.Do...While
+            ref: "/3-JavaScript/3-6Loops/3-6-3Dowhile.md"
+      - name: 3.7.Functions
+        ref: "/3-JavaScript/3-7Functions/"
+        sub:
+          - name: 3.7.1.Declare
+            ref: "/3-JavaScript/3-7Functions/3-7-1Declare.md"
+          - name: 3.7.2.Higher order
+            ref: "/3-JavaScript/3-7Functions/3-7-2Higher_order.md"
+      - name: 3.8.Objects
+        ref: "/3-JavaScript/3-8Objects/"
+        sub:
+          - name: 3.8.1.Creation
+            ref: "/3-JavaScript/3-8Objects/3-8-1Creation.md"
+          - name: 3.8.2.Properties
+            ref: "/3-JavaScript/3-8Objects/3-8-2Properties.md"
+          - name: 3.8.3.Mutable
+            ref: "/3-JavaScript/3-8Objects/3-8-3Mutable.md"
+          - name: 3.8.4.Reference
+            ref: "/3-JavaScript/3-8Objects/3-8-4Reference.md"
+          - name: 3.8.5.Prototype
+            ref: "/3-JavaScript/3-8Objects/3-8-5Prototype.md"
+          - name: 3.8.6.Delete
+            ref: "/3-JavaScript/3-8Objects/3-8-6Delete.md"
+          - name: 3.8.7.Enumeration
+            ref: "/3-JavaScript/3-8Objects/3-8-7Enumeration.md"
+          - name: 3.8.8.Global footprint
+            ref: "/3-JavaScript/3-8Objects/3-8-8Global_footprint.md"
